@@ -2,6 +2,10 @@ package com.learn.dsa.trees;
 
 public class MaximumDepthBinaryTree {
 
+    /**
+     * <a href="https://leetcode.com/problems/maximum-depth-of-binary-tree/">...</a>
+     * 104. Maximum Depth of Binary Tree
+     */
     public int maxDepth(TreeNode root) {
         if (root == null) {
             return 0;
